@@ -1,0 +1,19 @@
+{
+  "name": "supplychain-lens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency provenance explorer for software bills of materials, graph impact, and release trust.",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "~5.9.3",
+    "vitest": "^2.1.9"
+  }
+}
